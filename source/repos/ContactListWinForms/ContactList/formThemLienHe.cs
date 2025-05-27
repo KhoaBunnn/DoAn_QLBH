@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ContactList
 {
-    public partial class formXoaLienHe : Form
+    public partial class formThemLienHe : Form
     {
-        public formXoaLienHe()
+        public formThemLienHe()
         {
             InitializeComponent();
         }
