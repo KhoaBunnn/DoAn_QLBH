@@ -1,0 +1,27 @@
+﻿@model QLKhoHang.Models.Kho
+@{
+    ViewData["Title"] = "Xóa Kho";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>Bạn có chắc chắn muốn xóa kho này không?</h3>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Mã Kho</dt>
+        <dd class="col-sm-10">@Model.MaKho</dd>
+
+        <dt class="col-sm-2">Tên Kho</dt>
+        <dd class="col-sm-10">@Model.TenKho</dd>
+
+        <dt class="col-sm-2">Địa chỉ</dt>
+        <dd class="col-sm-10">@Model.DiaChiKho</dd>
+    </dl>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" name="MaKho" value="@Model.MaKho" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

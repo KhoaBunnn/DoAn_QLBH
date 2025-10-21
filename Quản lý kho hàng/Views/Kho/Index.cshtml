@@ -1,0 +1,36 @@
+﻿@model IEnumerable<QLKhoHang.Models.Kho>
+
+@{
+    ViewData["Title"] = "Danh sách Kho";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm Kho</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Mã Kho</th>
+            <th>Tên Kho</th>
+            <th>Địa chỉ</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaKho</td>
+                <td>@item.TenKho</td>
+                <td>@item.DiaChiKho</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MaKho" class="btn btn-sm btn-warning">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.MaKho" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
