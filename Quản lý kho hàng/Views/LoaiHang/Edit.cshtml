@@ -1,0 +1,29 @@
+﻿@model QLKhoHang.Models.LoaiHang
+
+@{
+    ViewData["Title"] = "Chỉnh sửa loại hàng";
+}
+
+<h2 class="text-center mb-4">✏️ CHỈNH SỬA LOẠI HÀNG</h2>
+
+<form asp-action="Edit" method="post" class="w-50 mx-auto">
+    <div class="form-group mb-3">
+        <label asp-for="MaLoai" class="form-label">Mã loại</label>
+        <input asp-for="MaLoai" class="form-control" readonly />
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="TenLoai" class="form-label">Tên loại</label>
+        <input asp-for="TenLoai" class="form-control" />
+        <span asp-validation-for="TenLoai" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-warning w-100">💾 Cập nhật</button>
+    <a asp-action="Index" class="btn btn-secondary w-100 mt-2">⬅️ Quay lại</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

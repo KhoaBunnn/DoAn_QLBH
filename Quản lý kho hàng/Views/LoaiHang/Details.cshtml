@@ -1,0 +1,17 @@
+﻿@model QLKhoHang.Models.LoaiHang
+
+@{
+    ViewData["Title"] = "Chi tiết loại hàng";
+}
+
+<h2 class="text-center mb-4">👁️ CHI TIẾT LOẠI HÀNG</h2>
+
+<div class="border p-4 w-50 mx-auto">
+    <p><strong>Mã loại:</strong> @Model.MaLoai</p>
+    <p><strong>Tên loại:</strong> @Model.TenLoai</p>
+</div>
+
+<div class="text-center mt-3">
+    <a asp-action="Edit" asp-route-id="@Model.MaLoai" class="btn btn-warning">✏️ Sửa</a>
+    <a asp-action="Index" class="btn btn-secondary">⬅️ Quay lại</a>
+</div>

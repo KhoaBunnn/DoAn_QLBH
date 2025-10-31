@@ -6,26 +6,26 @@ using System.Threading.Tasks;
 
 namespace QLKhoHang.Controllers
 {
-    public class KhoController : Controller
+    public class LoaiHangController : Controller
     {
-        private readonly IRepository<Kho> _repo;
+        private readonly IRepository<LoaiHang> _repo;
 
-        public KhoController(IRepository<Kho> repo)
+        public LoaiHangController(IRepository<LoaiHang> repo)
         {
             _repo = repo;
         }
 
         // =========================
-        // DANH SÁCH KHO
+        // DANH SÁCH LOẠI HÀNG
         // =========================
         public async Task<IActionResult> Index()
         {
-            var khos = await _repo.GetAllAsync();
-            return View(khos);
+            var loaiHangs = await _repo.GetAllAsync();
+            return View(loaiHangs);
         }
 
         // =========================
-        // TẠO KHO MỚI
+        // TẠO LOẠI HÀNG MỚI
         // =========================
         [HttpGet]
         public IActionResult Create()
@@ -35,29 +35,41 @@ namespace QLKhoHang.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaKho,TenKho,DiaChiKho")] Kho kho)
+        public async Task<IActionResult> Create([Bind("MaLoai,TenLoai")] LoaiHang loaiHang)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
-                    await _repo.AddAsync(kho);
+                    await _repo.AddAsync(loaiHang);
                     await _repo.SaveChangesAsync();
-                    TempData["SuccessMessage"] = $"✅ Đã tạo thành công kho: {kho.TenKho}";
+                    Console.WriteLine($"==> ĐÃ THÊM: {loaiHang.MaLoai} - {loaiHang.TenLoai}");
                     return RedirectToAction(nameof(Index));
                 }
-                catch
+                catch (Exception ex)
                 {
-                    TempData["ErrorMessage"] = "❌ Lỗi khi lưu dữ liệu. Vui lòng thử lại!";
+                    Console.WriteLine($"==> Lỗi khi lưu: {ex.Message}");
+                }
+            }
+            else
+            {
+                // In ra các lỗi model cụ thể
+                foreach (var error in ModelState)
+                {
+                    foreach (var e in error.Value.Errors)
+                    {
+                        Console.WriteLine($"==> Lỗi ModelState: {error.Key} - {e.ErrorMessage}");
+                    }
                 }
             }
 
-            return View(kho);
+
+            return View(loaiHang);
         }
 
 
         // =========================
-        // CHỈNH SỬA KHO
+        // CHỈNH SỬA LOẠI HÀNG
         // =========================
         [HttpGet]
         public async Task<IActionResult> Edit(string id)
@@ -65,37 +77,37 @@ namespace QLKhoHang.Controllers
             if (string.IsNullOrEmpty(id))
                 return NotFound();
 
-            var kho = await _repo.GetByIdAsync(id);
-            if (kho == null)
+            var loaiHang = await _repo.GetByIdAsync(id);
+            if (loaiHang == null)
                 return NotFound();
 
-            return View(kho);
+            return View(loaiHang);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit([Bind("MaKho,TenKho,DiaChiKho,GhiChu")] Kho kho)
+        public async Task<IActionResult> Edit([Bind("MaLoai,TenLoai")] LoaiHang loaiHang)
         {
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _repo.Update(kho);
+                    _repo.Update(loaiHang);
                     await _repo.SaveChangesAsync();
-                    TempData["SuccessMessage"] = $"✏️ Đã cập nhật kho: {kho.TenKho}";
+                    TempData["SuccessMessage"] = $"✏️ Đã cập nhật loại hàng: {loaiHang.TenLoai}";
                     return RedirectToAction(nameof(Index));
                 }
                 catch
                 {
-                    TempData["ErrorMessage"] = "❌ Lỗi khi cập nhật kho!";
+                    TempData["ErrorMessage"] = "❌ Lỗi khi cập nhật loại hàng!";
                 }
             }
 
-            return View(kho);
+            return View(loaiHang);
         }
 
         // =========================
-        // XOÁ KHO
+        // XOÁ LOẠI HÀNG
         // =========================
         [HttpGet]
         public async Task<IActionResult> Delete(string id)
@@ -103,34 +115,30 @@ namespace QLKhoHang.Controllers
             if (string.IsNullOrEmpty(id))
                 return NotFound();
 
-            var kho = await _repo.GetByIdAsync(id);
-            if (kho == null)
+            var loaiHang = await _repo.GetByIdAsync(id);
+            if (loaiHang == null)
                 return NotFound();
 
-            return View(kho);
+            return View(loaiHang);
         }
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string MaKho)
+        public async Task<IActionResult> DeleteConfirmed(string MaLoai)
         {
-            var kho = await _repo.GetByIdAsync(MaKho);
-            if (kho != null)
+            var loaiHang = await _repo.GetByIdAsync(MaLoai);
+            if (loaiHang != null)
             {
                 try
                 {
-                    _repo.Delete(kho);
+                    _repo.Delete(loaiHang);
                     await _repo.SaveChangesAsync();
-                    TempData["SuccessMessage"] = $"🗑️ Đã xoá kho: {kho.TenKho}";
+                    TempData["SuccessMessage"] = $"🗑️ Đã xoá loại hàng: {loaiHang.TenLoai}";
                 }
                 catch
                 {
-                    TempData["ErrorMessage"] = "❌ Lỗi khi xoá kho!";
+                    TempData["ErrorMessage"] = "❌ Lỗi khi xoá loại hàng!";
                 }
-            }
-            else
-            {
-                TempData["ErrorMessage"] = "Không tìm thấy kho để xoá!";
             }
 
             return RedirectToAction(nameof(Index));
@@ -144,11 +152,11 @@ namespace QLKhoHang.Controllers
             if (string.IsNullOrEmpty(id))
                 return NotFound();
 
-            var kho = await _repo.GetByIdAsync(id);
-            if (kho == null)
+            var loaiHang = await _repo.GetByIdAsync(id);
+            if (loaiHang == null)
                 return NotFound();
 
-            return View(kho);
+            return View(loaiHang);
         }
     }
 }

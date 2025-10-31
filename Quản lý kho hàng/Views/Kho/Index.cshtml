@@ -4,10 +4,19 @@
     ViewData["Title"] = "Danh sách Kho";
 }
 
-<h2>@ViewData["Title"]</h2>
+<h2 class="mb-3">Danh sách Kho</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
 
 <p>
-    <a asp-action="Create" class="btn btn-primary">Thêm Kho</a>
+    <a asp-action="Create" class="btn btn-primary">+ Thêm Kho</a>
 </p>
 
 <table class="table table-bordered table-striped">
@@ -16,20 +25,30 @@
             <th>Mã Kho</th>
             <th>Tên Kho</th>
             <th>Địa chỉ</th>
-            <th>Hành động</th>
+            <th style="width:180px">Hành động</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaKho</td>
+                    <td>@item.TenKho</td>
+                    <td>@item.DiaChiKho</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.MaKho" class="btn btn-sm btn-warning">Sửa</a>
+                        @* <a asp-action="Details" asp-route-id="@item.MaKho" class="btn btn-sm btn-info">Chi tiết</a> *@
+                        <a asp-action="Delete" asp-route-id="@item.MaKho" class="btn btn-sm btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
         {
             <tr>
-                <td>@item.MaKho</td>
-                <td>@item.TenKho</td>
-                <td>@item.DiaChiKho</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.MaKho" class="btn btn-sm btn-warning">Sửa</a>
-                    <a asp-action="Delete" asp-route-id="@item.MaKho" class="btn btn-sm btn-danger">Xóa</a>
-                </td>
+                <td colspan="4" class="text-center">Chưa có dữ liệu</td>
             </tr>
         }
     </tbody>

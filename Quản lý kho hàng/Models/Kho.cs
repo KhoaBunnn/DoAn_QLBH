@@ -18,6 +18,6 @@ namespace QLKhoHang.Models
         [StringLength(255)]
         public string DiaChiKho { get; set; }
 
-        public ICollection<HangHoa> HangHoas { get; set; }
+        
     }
 }
