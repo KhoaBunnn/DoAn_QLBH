@@ -1,0 +1,58 @@
+﻿@model QLKhoHang.Models.HangHoaCreateViewModel
+
+@{
+    ViewData["Title"] = "Thêm hàng hóa mới";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="MaHang"></label>
+        <input asp-for="MaHang" class="form-control" />
+        <span asp-validation-for="MaHang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="TenHang"></label>
+        <input asp-for="TenHang" class="form-control" />
+        <span asp-validation-for="TenHang" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DonViTinh"></label>
+        <input asp-for="DonViTinh" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="SoLuongTon"></label>
+        <input asp-for="SoLuongTon" class="form-control" />
+        <span asp-validation-for="SoLuongTon" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="GiaNhap"></label>
+        <input asp-for="GiaNhap" class="form-control" />
+        <span asp-validation-for="GiaNhap" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="GiaXuat"></label>
+        <input asp-for="GiaXuat" class="form-control" />
+        <span asp-validation-for="GiaXuat" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MaLoai"></label>
+        <select asp-for="MaLoai" asp-items="Model.LoaiHangList" class="form-control">
+            <option value="">-- Chọn loại hàng --</option>
+        </select>
+        <span asp-validation-for="MaLoai" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MaKho"></label>
+        <select asp-for="MaKho" asp-items="Model.KhoList" class="form-control">
+            <option value="">-- Chọn kho --</option>
+        </select>
+        <span asp-validation-for="MaKho" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Lưu</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

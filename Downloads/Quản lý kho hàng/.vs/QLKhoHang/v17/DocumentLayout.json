@@ -1,0 +1,760 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\data\\qlkhohangcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:data\\qlkhohangcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\ct_phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\ct_phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\ct_phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\ct_phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\baocaoxuathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\baocaoxuathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\repository\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:repository\\nhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\repository\\inhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:repository\\inhanvienrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\views\\nhanvien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:views\\nhanvien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:views\\nhanvien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\views\\nhanvien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:views\\nhanvien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:views\\nhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\repository\\khorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:repository\\khorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\repository\\ikhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:repository\\ikhorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\repository\\ihanghoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:repository\\ihanghoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\repository\\hanghoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:repository\\hanghoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\controllers\\loaihangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:controllers\\loaihangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\controllers\\khocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:controllers\\khocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\phieunhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\loaihangeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\loaihangeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\loaihangcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\loaihangcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\loaihang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\loaihang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\kybaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\kybaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\khoeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\khoeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\khocreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\khocreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\kho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\hanghoaeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\hanghoaeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\hanghoacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\hanghoacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\baocaotonkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\baocaotonkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\models\\baocaonhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:models\\baocaonhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\migrations\\20251116145949_initdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:migrations\\20251116145949_initdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\qlkhohang.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:qlkhohang.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|c:\\users\\asus\\downloads\\qu\u1EA3n l\u00FD kho h\u00E0ng\\migrations\\20251116171508_update_ct_phieunhap_ct_phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26B6E7E-069C-B990-B29C-F643E0E66DFA}|QLKhoHang.csproj|solutionrelative:migrations\\20251116171508_update_ct_phieunhap_ct_phieuxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 752,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 296,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwD0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T17:18:22.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20251116171508_Update_CT_PhieuNhap_CT_PhieuXuat.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Migrations\\20251116171508_Update_CT_PhieuNhap_CT_PhieuXuat.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251116171508_Update_CT_PhieuNhap_CT_PhieuXuat.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Migrations\\20251116171508_Update_CT_PhieuNhap_CT_PhieuXuat.cs",
+              "RelativeToolTip": "Migrations\\20251116171508_Update_CT_PhieuNhap_CT_PhieuXuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T17:15:09.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhanVienController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "Controllers\\NhanVienController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv3cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:37:43.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "Models\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\NhanVien.cs",
+              "RelativeToolTip": "Models\\NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:03:47.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:34:52.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QLKhoHangContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Data\\QLKhoHangContext.cs",
+              "RelativeDocumentMoniker": "Data\\QLKhoHangContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Data\\QLKhoHangContext.cs",
+              "RelativeToolTip": "Data\\QLKhoHangContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:16:11.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CT_PhieuNhap.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\CT_PhieuNhap.cs",
+              "RelativeDocumentMoniker": "Models\\CT_PhieuNhap.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\CT_PhieuNhap.cs",
+              "RelativeToolTip": "Models\\CT_PhieuNhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:01:06.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CT_PhieuXuat.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\CT_PhieuXuat.cs",
+              "RelativeDocumentMoniker": "Models\\CT_PhieuXuat.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\CT_PhieuXuat.cs",
+              "RelativeToolTip": "Models\\CT_PhieuXuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:01:13.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaoCaoXuatHang.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\BaoCaoXuatHang.cs",
+              "RelativeDocumentMoniker": "Models\\BaoCaoXuatHang.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\BaoCaoXuatHang.cs",
+              "RelativeToolTip": "Models\\BaoCaoXuatHang.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:00:11.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NhanVienRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\NhanVienRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\NhanVienRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\NhanVienRepository.cs",
+              "RelativeToolTip": "Repository\\NhanVienRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:36:51.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "INhanVienRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\INhanVienRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\INhanVienRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\INhanVienRepository.cs",
+              "RelativeToolTip": "Repository\\INhanVienRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:36:23.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\NhanVien\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhanVien\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\NhanVien\\Create.cshtml",
+              "RelativeToolTip": "Views\\NhanVien\\Create.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvzoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T16:40:03.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\KhachHang.cs",
+              "RelativeDocumentMoniker": "Models\\KhachHang.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\KhachHang.cs",
+              "RelativeToolTip": "Models\\KhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:02:00.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\NhanVien\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhanVien\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\NhanVien\\Delete.cshtml",
+              "RelativeToolTip": "Views\\NhanVien\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T16:41:34.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\NhanVien\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhanVien\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\NhanVien\\Edit.cshtml",
+              "RelativeToolTip": "Views\\NhanVien\\Edit.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T16:41:15.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\NhanVien\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhanVien\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\NhanVien\\Details.cshtml",
+              "RelativeToolTip": "Views\\NhanVien\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T16:40:53.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\NhanVien\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhanVien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Views\\NhanVien\\Index.cshtml",
+              "RelativeToolTip": "Views\\NhanVien\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T16:39:13.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KhoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\KhoRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\KhoRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\KhoRepository.cs",
+              "RelativeToolTip": "Repository\\KhoRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:15:38.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IKhoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\IKhoRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IKhoRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\IKhoRepository.cs",
+              "RelativeToolTip": "Repository\\IKhoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:15:28.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IHangHoaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\IHangHoaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IHangHoaRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\IHangHoaRepository.cs",
+              "RelativeToolTip": "Repository\\IHangHoaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:15:16.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HangHoaController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Controllers\\HangHoaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HangHoaController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Controllers\\HangHoaController.cs",
+              "RelativeToolTip": "Controllers\\HangHoaController.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAIwLUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:04:37.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HangHoa.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\HangHoa.cs",
+              "RelativeDocumentMoniker": "Models\\HangHoa.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\HangHoa.cs",
+              "RelativeToolTip": "Models\\HangHoa.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwCUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:01:22.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HangHoaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\HangHoaRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\HangHoaRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Repository\\HangHoaRepository.cs",
+              "RelativeToolTip": "Repository\\HangHoaRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:15:06.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoaiHangController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Controllers\\LoaiHangController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoaiHangController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Controllers\\LoaiHangController.cs",
+              "RelativeToolTip": "Controllers\\LoaiHangController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:04:59.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "KhoController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Controllers\\KhoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KhoController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Controllers\\KhoController.cs",
+              "RelativeToolTip": "Controllers\\KhoController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAwwJYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:04:14.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PhieuXuat.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\PhieuXuat.cs",
+              "RelativeDocumentMoniker": "Models\\PhieuXuat.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\PhieuXuat.cs",
+              "RelativeToolTip": "Models\\PhieuXuat.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:04:03.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PhieuNhap.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\PhieuNhap.cs",
+              "RelativeDocumentMoniker": "Models\\PhieuNhap.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\PhieuNhap.cs",
+              "RelativeToolTip": "Models\\PhieuNhap.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:03:54.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NhaCungCap.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\NhaCungCap.cs",
+              "RelativeDocumentMoniker": "Models\\NhaCungCap.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\NhaCungCap.cs",
+              "RelativeToolTip": "Models\\NhaCungCap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:03:34.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoaiHangEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\LoaiHangEditViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoaiHangEditViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\LoaiHangEditViewModel.cs",
+              "RelativeToolTip": "Models\\LoaiHangEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:03:06.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoaiHangCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\LoaiHangCreateViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoaiHangCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\LoaiHangCreateViewModel.cs",
+              "RelativeToolTip": "Models\\LoaiHangCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:03:00.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoaiHang.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\LoaiHang.cs",
+              "RelativeDocumentMoniker": "Models\\LoaiHang.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\LoaiHang.cs",
+              "RelativeToolTip": "Models\\LoaiHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:02:48.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "KyBaoCao.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\KyBaoCao.cs",
+              "RelativeDocumentMoniker": "Models\\KyBaoCao.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\KyBaoCao.cs",
+              "RelativeToolTip": "Models\\KyBaoCao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:02:37.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "KhoCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\KhoCreateViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\KhoCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\KhoCreateViewModel.cs",
+              "RelativeToolTip": "Models\\KhoCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:02:19.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Kho.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\Kho.cs",
+              "RelativeDocumentMoniker": "Models\\Kho.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\Kho.cs",
+              "RelativeToolTip": "Models\\Kho.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:02:12.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HangHoaEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\HangHoaEditViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HangHoaEditViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\HangHoaEditViewModel.cs",
+              "RelativeToolTip": "Models\\HangHoaEditViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAzwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:01:46.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HangHoaCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\HangHoaCreateViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HangHoaCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\HangHoaCreateViewModel.cs",
+              "RelativeToolTip": "Models\\HangHoaCreateViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAzwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:01:36.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "KhoEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\KhoEditViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\KhoEditViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\KhoEditViewModel.cs",
+              "RelativeToolTip": "Models\\KhoEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T15:58:00.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "BaoCaoTonKho.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\BaoCaoTonKho.cs",
+              "RelativeDocumentMoniker": "Models\\BaoCaoTonKho.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\BaoCaoTonKho.cs",
+              "RelativeToolTip": "Models\\BaoCaoTonKho.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:00:05.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BaoCaoNhapHang.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\BaoCaoNhapHang.cs",
+              "RelativeDocumentMoniker": "Models\\BaoCaoNhapHang.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Models\\BaoCaoNhapHang.cs",
+              "RelativeToolTip": "Models\\BaoCaoNhapHang.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T15:58:03.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20251116145949_InitDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Migrations\\20251116145949_InitDatabase.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251116145949_InitDatabase.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\Migrations\\20251116145949_InitDatabase.cs",
+              "RelativeToolTip": "Migrations\\20251116145949_InitDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T14:59:50.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-16T14:35:21.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-16T14:35:16.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "QLKhoHang",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\QLKhoHang.csproj",
+              "RelativeDocumentMoniker": "QLKhoHang.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Downloads\\Qu\u1EA3n l\u00FD kho h\u00E0ng\\QLKhoHang.csproj",
+              "RelativeToolTip": "QLKhoHang.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-16T14:34:25.394Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 78,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

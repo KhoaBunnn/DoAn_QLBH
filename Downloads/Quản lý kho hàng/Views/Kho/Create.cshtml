@@ -1,0 +1,47 @@
+﻿@model QLKhoHang.Models.Kho
+
+@{
+    ViewData["Title"] = "Tạo kho mới";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Hiển thị tất cả lỗi ModelState -->
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <strong>Đã xảy ra lỗi:</strong>
+        <ul>
+            @foreach (var key in ViewData.ModelState.Keys)
+            {
+                var state = ViewData.ModelState[key];
+                foreach (var error in state.Errors)
+                {
+                    <li>@(string.IsNullOrEmpty(key) ? "Form" : key): @error.ErrorMessage</li>
+                }
+            }
+        </ul>
+    </div>
+}
+
+<form asp-action="Create" method="post">
+    <div class="form-group mb-3">
+        <label asp-for="TenKho" class="form-label"></label>
+        <input asp-for="TenKho" class="form-control" />
+        <span asp-validation-for="TenKho" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="DiaChiKho" class="form-label"></label>
+        <input asp-for="DiaChiKho" class="form-control" />
+        <span asp-validation-for="DiaChiKho" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

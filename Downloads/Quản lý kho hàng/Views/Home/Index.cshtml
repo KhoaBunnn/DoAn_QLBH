@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center fw-bold">Quản lý kho hàng</h2>
+
+    <div class="row g-4 justify-content-center">
+
+        <!-- Kho -->
+        <div class="col-md-3">
+            <div class="card text-white bg-primary shadow h-100 rounded-4 home-card">
+                <div class="card-body text-center">
+                    <div style="font-size:40px;">📦</div>
+                    <h5 class="card-title mt-2">Kho</h5>
+                    <p class="card-text">Xem danh sách kho, thêm mới kho, sửa hoặc xóa kho.</p>
+                    <a asp-controller="Kho" asp-action="Index" class="btn btn-light rounded-pill px-4">Đi tới Kho</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hàng hóa -->
+        <div class="col-md-3">
+            <div class="card text-white bg-success shadow h-100 rounded-4 home-card">
+                <div class="card-body text-center">
+                    <div style="font-size:40px;">🛒</div>
+                    <h5 class="card-title mt-2">Hàng hóa</h5>
+                    <p class="card-text">Quản lý danh sách hàng hóa, thêm, sửa, xóa sản phẩm.</p>
+                    <a asp-controller="HangHoa" asp-action="Index" class="btn btn-light rounded-pill px-4">Đi tới Hàng hóa</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nhân viên -->
+        <div class="col-md-3">
+            <div class="card text-white bg-info shadow h-100 rounded-4 home-card">
+                <div class="card-body text-center">
+                    <div style="font-size:40px;">👨‍💼</div>
+                    <h5 class="card-title mt-2">Nhân viên</h5>
+                    <p class="card-text">Quản lý danh sách nhân viên, thêm, sửa, xóa nhân viên.</p>
+                    <a asp-controller="NhanVien" asp-action="Index" class="btn btn-light rounded-pill px-4">Đi tới Nhân viên</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Báo cáo -->
+        <div class="col-md-3">
+            <div class="card text-dark bg-warning shadow h-100 rounded-4 home-card">
+                <div class="card-body text-center">
+                    <div style="font-size:40px;">📊</div>
+                    <h5 class="card-title mt-2">Báo cáo</h5>
+                    <p class="card-text">Xem báo cáo tồn kho, doanh số, thống kê sản phẩm.</p>
+                    <a asp-controller="BaoCao" asp-action="Index" class="btn btn-dark rounded-pill px-4">Đi tới Báo cáo</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    .home-card {
+        transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .home-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    }
+</style>

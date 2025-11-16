@@ -1,0 +1,15 @@
+﻿@model QLKhoHang.Models.NhanVien
+
+<h2>Chi tiết nhân viên</h2>
+
+<div class="card p-3">
+    <p><strong>Mã nhân viên:</strong> @Model.MaNV</p>
+    <p><strong>Tên nhân viên:</strong> @Model.TenNV</p>
+    <p><strong>SĐT:</strong> @Model.SDT</p>
+    <p><strong>Địa chỉ:</strong> @Model.DiaChi</p>
+</div>
+
+<br />
+<a class="btn btn-primary" href="/NhanVien/Edit/@Model.MaNV">Sửa</a>
+<a class="btn btn-danger" href="/NhanVien/Delete/@Model.MaNV">Xóa</a>
+<a class="btn btn-secondary" href="/NhanVien">Quay lại</a>

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<QLKhoHang.Models.HangHoa>
+
+@{
+    ViewData["Title"] = "Danh sách hàng hóa";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Thêm mới hàng hóa</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>MaHang</th>
+            <th>TenHang</th>
+            <th>DonViTinh</th>
+            <th>SoLuongTon</th>
+            <th>GiaNhap</th>
+            <th>GiaXuat</th>
+            <th>MaLoai</th>
+            <th>MaKho</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaHang</td>
+                <td>@item.TenHang</td>
+                <td>@item.DonViTinh</td>
+                <td>@item.SoLuongTon</td>
+                <td>@item.GiaNhap</td>
+                <td>@item.GiaXuat</td>
+                <td>@item.MaLoai</td>
+                <td>@item.MaKho</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MaHang" class="btn btn-sm btn-warning">Sửa</a>
+                    <a asp-action="Details" asp-route-id="@item.MaHang" class="btn btn-sm btn-info">Xem</a>
+                    <a asp-action="Delete" asp-route-id="@item.MaHang" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

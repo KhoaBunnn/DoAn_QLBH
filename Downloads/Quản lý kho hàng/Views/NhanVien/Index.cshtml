@@ -1,0 +1,32 @@
+﻿@model IEnumerable<QLKhoHang.Models.NhanVien>
+
+<h2>Danh sách nhân viên</h2>
+
+<p>
+    <a class="btn btn-primary" href="/NhanVien/Create">Thêm nhân viên</a>
+</p>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Mã NV</th>
+        <th>Tên NV</th>
+        <th>SĐT</th>
+        <th>Địa chỉ</th>
+        <th></th>
+    </tr>
+
+    @foreach (var nv in Model)
+    {
+        <tr>
+            <td>@nv.MaNV</td>
+            <td>@nv.TenNV</td>
+            <td>@nv.SDT</td>
+            <td>@nv.DiaChi</td>
+            <td>
+                <a href="/NhanVien/Edit/@nv.MaNV">Sửa</a> |
+                <a href="/NhanVien/Details/@nv.MaNV">Chi tiết</a> |
+                <a href="/NhanVien/Delete/@nv.MaNV">Xóa</a>
+            </td>
+        </tr>
+    }
+</table>
