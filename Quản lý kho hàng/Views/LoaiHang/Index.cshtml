@@ -1,0 +1,44 @@
+﻿@model IEnumerable<QLKhoHang.Models.LoaiHang>
+
+@{
+    ViewData["Title"] = "Danh sách loại hàng";
+}
+
+<h2 class="text-center mb-4">📦 DANH SÁCH LOẠI HÀNG</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">➕ Thêm loại hàng mới</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark text-center">
+        <tr>
+            <th>Mã loại</th>
+            <th>Tên loại</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaLoai</td>
+                <td>@item.TenLoai</td>
+                <td class="text-center">
+                    <a asp-action="Edit" asp-route-id="@item.MaLoai" class="btn btn-sm btn-warning">✏️ Sửa</a>
+                    <a asp-action="Details" asp-route-id="@item.MaLoai" class="btn btn-sm btn-info">👁️ Xem</a>
+                    <a asp-action="Delete" asp-route-id="@item.MaLoai" class="btn btn-sm btn-danger">🗑️ Xoá</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,50 @@
+﻿@model QLKhoHang.Models.Kho
+@{
+    ViewData["Title"] = "Thêm Kho";
+}
+
+<h2>Thêm Kho</h2>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary mb-3">← Quay về danh sách</a>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<form asp-action="Create" method="post" class="row g-3">
+    @Html.AntiForgeryToken()
+
+    <div class="col-12">
+        <label asp-for="MaKho" class="form-label">Mã Kho <span class="text-danger">*</span></label>
+        <input asp-for="MaKho" class="form-control" />
+        <span asp-validation-for="MaKho" class="text-danger"></span>
+    </div>
+
+    <div class="col-12">
+        <label asp-for="TenKho" class="form-label">Tên Kho <span class="text-danger">*</span></label>
+        <input asp-for="TenKho" class="form-control" />
+        <span asp-validation-for="TenKho" class="text-danger"></span>
+    </div>
+
+    <div class="col-12">
+        <label asp-for="DiaChiKho" class="form-label">Địa chỉ Kho</label>
+        <input asp-for="DiaChiKho" class="form-control" />
+        <span asp-validation-for="DiaChiKho" class="text-danger"></span>
+    </div>
+
+    <div class="col-12">
+        <button type="submit" class="btn btn-success">Lưu</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

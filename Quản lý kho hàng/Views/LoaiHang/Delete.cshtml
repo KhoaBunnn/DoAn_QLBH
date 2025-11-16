@@ -1,0 +1,20 @@
+﻿@model QLKhoHang.Models.LoaiHang
+
+@{
+    ViewData["Title"] = "Xoá loại hàng";
+}
+
+<h2 class="text-center text-danger mb-4">🗑️ XOÁ LOẠI HÀNG</h2>
+
+<h4>Bạn có chắc muốn xoá loại hàng này không?</h4>
+
+<div class="border p-4 mt-3 w-50 mx-auto">
+    <p><strong>Mã loại:</strong> @Model.MaLoai</p>
+    <p><strong>Tên loại:</strong> @Model.TenLoai</p>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="MaLoai" />
+        <button type="submit" class="btn btn-danger w-100">🗑️ Xoá</button>
+        <a asp-action="Index" class="btn btn-secondary w-100 mt-2">⬅️ Quay lại</a>
+    </form>
+</div>
